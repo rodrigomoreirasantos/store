@@ -2,9 +2,10 @@ import { Product } from "@prisma/client";
 import Image from "next/image";
 import { Badge } from "./badge";
 import { ArrowDownIcon } from "lucide-react";
+import { ProductWithTotalPrice } from "@/helpers/product";
 
 interface ProductItemProp {
-  product: Product;
+  product: ProductWithTotalPrice;
 }
 
 const ProductItem = ({ product }: ProductItemProp) => {
@@ -38,17 +39,15 @@ const ProductItem = ({ product }: ProductItemProp) => {
         <div className="flex items-center gap-2">
           {product.discountPercentage > 0 ? (
             <>
-              <p className="font-semibold">
-                {/* R$ {product.totalPrice.toFixed(2)} */}
-              </p>
+              <p className="font-semibold">$ {product.totalPrice.toFixed(2)}</p>
 
               <p className="text-xs line-through opacity-75">
-                R$ {Number(product.basePrice).toFixed(2)}
+                $ {Number(product.basePrice).toFixed(2)}
               </p>
             </>
           ) : (
             <p className="text-sm font-semibold">
-              R$ {product.basePrice.toFixed(2)}
+              $ {product.basePrice.toFixed(2)}
             </p>
           )}
         </div>

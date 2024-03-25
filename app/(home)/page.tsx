@@ -13,21 +13,22 @@ export default async function Home() {
   });
 
   return (
-    <div className="p-5">
+    <div>
       <Image
         src="/banner-home-01.png"
         height={0}
         width={0}
-        className="h-auto w-full"
+        className="h-auto w-full px-5"
         sizes="100vw"
         alt="55% sales this month"
       />
 
-      <div className="mt-8">
+      <div className="mt-8 px-5">
         <Categories />
       </div>
 
-      <div className="flex flex-col gap-3 lg:gap-5">
+      {/* <div className="flex flex-col gap-3 lg:gap-5"> */}
+      <div className="mt-8">
         <p className="pl-5">Deals</p>
         <ProductList products={deals} />
       </div>
