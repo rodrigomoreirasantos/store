@@ -29,9 +29,18 @@ export default async function Home() {
 
       {/* <div className="flex flex-col gap-3 lg:gap-5"> */}
       <div className="mt-8">
-        <p className="pl-5">Deals</p>
+        <p className="mb-3 pl-5 font-bold uppercase">Deals</p>
         <ProductList products={deals} />
       </div>
+
+      <Image
+        src="/banner-home-02.png"
+        height={0}
+        width={0}
+        className="h-auto w-full px-5 py-8 "
+        sizes="100vw"
+        alt="55% sales in mouses"
+      />
     </div>
   );
 }
