@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button";
 import DiscountBadge from "@/components/ui/discount-badge";
 import { ProductWithTotalPrice } from "@/helpers/product";
-// import { CartContext } from "@/providers/cart";
+import { CartContext } from "@/providers/cart";
 import { ArrowLeftIcon, ArrowRightIcon, TruckIcon } from "lucide-react";
 import { useContext, useState } from "react";
 // import WishButton from "./WishButton";
@@ -20,7 +20,7 @@ interface ProductInfoProps {
 const ProductInfo = ({ product }: ProductInfoProps) => {
   const [quantity, setQuantity] = useState(1);
 
-  //   const { addProductToCart } = useContext(CartContext);
+  const { addProductToCart } = useContext(CartContext);
 
   const handleDecreaseQuantityClick = () => {
     setQuantity((prev) => (prev === 1 ? prev : prev - 1));
@@ -30,9 +30,9 @@ const ProductInfo = ({ product }: ProductInfoProps) => {
     setQuantity((prev) => prev + 1);
   };
 
-  //   const handleAddToCartClick = () => {
-  //     addProductToCart({ ...product, quantity });
-  //   };
+  const handleAddToCartClick = () => {
+    addProductToCart({ ...product, quantity });
+  };
 
   return (
     <div className="flex flex-col px-5 lg:w-[40%] lg:rounded-lg lg:bg-accent lg:p-10">
@@ -83,8 +83,7 @@ const ProductInfo = ({ product }: ProductInfoProps) => {
       <div className="mt-8 flex flex-col gap-5">
         {/* <WishButton productId={product.id} wishLists={product.wishLists}  /> */}
 
-        <Button className="font-bold uppercase">
-          {/* <Button className="font-bold uppercase" onClick={handleAddToCartClick}> */}
+        <Button className="font-bold uppercase" onClick={handleAddToCartClick}>
           Adicionar ao carrinho
         </Button>
 
