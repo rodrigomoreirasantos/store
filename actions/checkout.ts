@@ -18,6 +18,7 @@ export const createCheckout = async (
     cancel_url: "http://localhost:3000",
     metadata: {
       // orderId,
+      products: JSON.stringify(products),
     },
     line_items: products.map((product) => {
       return {
