@@ -114,7 +114,7 @@ async function main() {
           "https://utfs.io/f/cef25187-51d4-4fb8-a7c7-92474d8fc07e-y9wlrz.png",
           "https://utfs.io/f/6010aa47-0155-40bb-9b37-e859d7b8aeb0-ausijr.png",
           "https://utfs.io/f/0c421d22-002c-4907-afe6-582d207493be-otkh7q.png",
-          "hhttps://utfs.io/f/8f959fce-38e0-4cb0-b335-219bcc6d495e-w8rm3f.png",
+          "https://utfs.io/f/8f959fce-38e0-4cb0-b335-219bcc6d495e-w8rm3f.png",
         ],
         basePrice: 650,
         categoryId: keyboardsCategory.id,
