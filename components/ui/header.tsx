@@ -78,7 +78,7 @@ const Header = () => {
                 className="w-full justify-start gap-2"
               >
                 <LogInIcon size={16} />
-                Fazer Login
+                Login
               </Button>
             )}
 
@@ -89,7 +89,7 @@ const Header = () => {
                 className="w-full justify-start gap-2"
               >
                 <LogOutIcon size={16} />
-                Fazer Logout
+                Logout
               </Button>
             )}
 
@@ -112,7 +112,7 @@ const Header = () => {
                   className="w-full justify-start gap-2"
                 >
                   <PercentIcon size={16} />
-                  Ofertas
+                  Deals
                 </Button>
               </Link>
             </SheetClose>
