@@ -11,7 +11,7 @@ import OrderProductItem from "./order-product-item";
 import { Separator } from "@/components/ui/separator";
 import { useMemo } from "react";
 import { computeProductTotalPrice } from "@/helpers/product";
-//   import { getOrderStatus } from "../../app/(shop)/orders/helpers/status";
+import { getOrderStatus } from "../helpers/status";
 
 interface OrderItemProps {
   order: Prisma.OrderGetPayload<{
@@ -60,8 +60,7 @@ const OrderItem = ({ order }: OrderItemProps) => {
               <div className="hidden flex-1 font-bold lg:block">
                 <p className="text-xs lg:text-sm">Status</p>
                 <p className="text-xs text-[#8162FF] lg:text-sm">
-                  {/* {getOrderStatus(order.status)} */}
-                  {order.status}
+                  {getOrderStatus(order.status)}
                 </p>
               </div>
 
@@ -85,8 +84,7 @@ const OrderItem = ({ order }: OrderItemProps) => {
                 <div className="font-bold">
                   <p className="text-xs lg:text-sm">Status</p>
                   <p className="text-xs text-[#8162FF] lg:text-sm">
-                    {/* {getOrderStatus(order.status)} */}
-                    {order.status}
+                    {getOrderStatus(order.status)}
                   </p>
                 </div>
 
