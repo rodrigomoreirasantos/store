@@ -28,8 +28,6 @@ const Cart = () => {
 
     const stripe = await loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLIC_KEY);
 
-    // Criar pedido no banco
-
     stripe?.redirectToCheckout({
       sessionId: checkout.id,
     });
