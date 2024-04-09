@@ -32,15 +32,15 @@ const OrderItem = ({ order }: OrderItemProps) => {
     }, 0);
   }, [order.orderProducts]);
 
-  // const total = useMemo(() => {
-  //   return order.orderProducts.reduce((acc, product) => {
-  //     const productTotalPrice = computeProductTotalPrice(product.product);
+  const total = useMemo(() => {
+    return order.orderProducts.reduce((acc, product) => {
+      const productTotalPrice = computeProductTotalPrice(product.product);
 
-  //     return acc + productTotalPrice * product.quantity;
-  //   }, 0);
-  // }, [order.orderProducts]);
+      return acc + Number(productTotalPrice.totalPrice) * product.quantity;
+    }, 0);
+  }, [order.orderProducts]);
 
-  // const totalDiscounts = subtotal - total;
+  const totalDiscounts = subtotal - total;
 
   return (
     <Card className="px-5">
@@ -66,15 +66,15 @@ const OrderItem = ({ order }: OrderItemProps) => {
               </div>
 
               <div className="hidden flex-1 lg:block">
-                <p className="text-xs font-bold lg:text-sm ">Data</p>
+                <p className="text-xs font-bold lg:text-sm ">Date</p>
                 <p className="text-xs opacity-60 lg:text-sm">
                   {format(order.createdAt, "d/MM/y")}
                 </p>
               </div>
 
               <div className="hidden flex-1 lg:block">
-                <p className="text-xs font-bold lg:text-sm">Pagamento</p>
-                <p className="text-xs opacity-60 lg:text-sm">Cartão</p>
+                <p className="text-xs font-bold lg:text-sm">Payment</p>
+                <p className="text-xs opacity-60 lg:text-sm">Card</p>
               </div>
             </div>
           </AccordionTrigger>
@@ -91,15 +91,15 @@ const OrderItem = ({ order }: OrderItemProps) => {
                 </div>
 
                 <div>
-                  <p className="text-xs font-bold lg:text-sm">Data</p>
+                  <p className="text-xs font-bold lg:text-sm">Date</p>
                   <p className="text-xs opacity-60 lg:text-sm">
                     {format(order.createdAt, "d/MM/y")}
                   </p>
                 </div>
 
                 <div>
-                  <p className="text-xs font-bold lg:text-sm">Pagamento</p>
-                  <p className="text-xs opacity-60 lg:text-sm">Cartão</p>
+                  <p className="text-xs font-bold lg:text-sm">Payment</p>
+                  <p className="text-xs opacity-60 lg:text-sm">Card</p>
                 </div>
               </div>
 
@@ -115,28 +115,28 @@ const OrderItem = ({ order }: OrderItemProps) => {
 
                 <div className="flex w-full justify-between py-3 lg:text-sm">
                   <p>Subtotal</p>
-                  <p>R$ {subtotal.toFixed(2)}</p>
+                  <p>$ {subtotal.toFixed(2)}</p>
                 </div>
 
                 <Separator />
 
                 <div className="flex w-full justify-between py-3 lg:text-sm">
-                  <p>Entrega</p>
-                  <p>GRÁTIS</p>
+                  <p>Delivery</p>
+                  <p>FREE</p>
                 </div>
 
                 <Separator />
 
                 <div className="flex w-full justify-between py-3 lg:text-sm">
-                  <p>Descontos</p>
-                  {/* <p>-R$ {totalDiscounts.toFixed(2)}</p> */}
+                  <p>Discount</p>
+                  <p>-$ {totalDiscounts.toFixed(2)}</p>
                 </div>
 
                 <Separator />
 
                 <div className="flex w-full justify-between py-3 text-sm font-bold lg:text-base">
                   <p>Total</p>
-                  {/* <p>R$ {total.toFixed(2)}</p> */}
+                  <p>$ {total.toFixed(2)}</p>
                 </div>
               </div>
             </div>
