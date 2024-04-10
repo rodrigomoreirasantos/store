@@ -40,7 +40,7 @@ const Cart = () => {
         variant="outline"
       >
         <ShoppingCartIcon size={16} />
-        Carrinho
+        Cart
       </Badge>
 
       <div className="flex h-full max-h-full flex-col gap-5 overflow-hidden">
@@ -55,7 +55,7 @@ const Cart = () => {
               ))
             ) : (
               <p className="text-center font-semibold">
-                Carrinho vazio. Vamos fazer compras?
+                Your cart is empty. Lets buy?
               </p>
             )}
           </div>
@@ -68,35 +68,35 @@ const Cart = () => {
 
           <div className="flex items-center justify-between text-xs lg:text-sm">
             <p>Subtotal</p>
-            <p>R$ {subTotal.toFixed(2)}</p>
+            <p>$ {subTotal.toFixed(2)}</p>
           </div>
 
           <Separator />
 
           <div className="flex items-center justify-between text-xs lg:text-sm">
-            <p>Entrega</p>
-            <p>GRÁTIS</p>
+            <p>Delivery</p>
+            <p>FREE</p>
           </div>
 
           <Separator />
 
           <div className="flex items-center justify-between text-xs lg:text-sm">
-            <p>Descontos</p>
-            <p>- R$ {totalDiscount.toFixed(2)}</p>
+            <p>Discount</p>
+            <p>- $ {totalDiscount.toFixed(2)}</p>
           </div>
 
           <Separator />
 
           <div className="flex items-center justify-between text-sm font-bold lg:text-base">
             <p>Total</p>
-            <p>R$ {total.toFixed(2)}</p>
+            <p>$ {total.toFixed(2)}</p>
           </div>
 
           <Button
             className="mt-7 font-bold uppercase"
             onClick={handleFinishPurchaseClick}
           >
-            Finalizar compra
+            End Purched
           </Button>
         </div>
       )}
