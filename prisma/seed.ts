@@ -206,7 +206,7 @@ async function main() {
         name: "Fones",
         slug: "headphones",
         imageUrl:
-          "https://utfs.io/f/1fcc3235-64d0-4450-83bf-828e03068be0-xrnpxh.png",
+          "https://utfs.io/f/ccba27c2-077a-4ed2-9388-b41eef13e3cd-cuwa00.png",
       },
     });
 
@@ -217,10 +217,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://utfs.io/f/1fcc3235-64d0-4450-83bf-828e03068be0-xrnpxh.png",
-          "https://utfs.io/f/1fcc3235-64d0-4450-83bf-828e03068be0-xrnpxh.png",
-          "https://utfs.io/f/1fcc3235-64d0-4450-83bf-828e03068be0-xrnpxh.png",
-          "https://utfs.io/f/1fcc3235-64d0-4450-83bf-828e03068be0-xrnpxh.png",
+          "https://utfs.io/f/ccba27c2-077a-4ed2-9388-b41eef13e3cd-cuwa00.png",
+          "https://utfs.io/f/f3652ee4-72b6-4d87-975e-74019bb5ef1e-guymjj.png",
+          "https://utfs.io/f/e016d081-48ef-424b-b414-29443db64f91-ogaiw2.png",
+          "https://utfs.io/f/63462f1b-7d39-4ca9-9ef9-92a32ab8c6f6-59kdnh.png",
         ],
         basePrice: 750,
         categoryId: headphonesCategory.id,
@@ -232,10 +232,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://utfs.io/f/1fcc3235-64d0-4450-83bf-828e03068be0-xrnpxh.png",
-          "https://utfs.io/f/1fcc3235-64d0-4450-83bf-828e03068be0-xrnpxh.png",
-          "https://utfs.io/f/1fcc3235-64d0-4450-83bf-828e03068be0-xrnpxh.png",
-          "https://utfs.io/f/1fcc3235-64d0-4450-83bf-828e03068be0-xrnpxh.png",
+          "https://utfs.io/f/de27713e-2253-4ab4-9a12-32ab77913491-cnu60s.png",
+          "https://utfs.io/f/50e19b9b-52a8-4874-b9bb-6eb8ece74b63-x8xsfx.png",
+          "https://utfs.io/f/d0139f61-92f9-4f28-b64a-c11b7c72e686-h72n42.png",
+          "https://utfs.io/f/4018e4bb-e7e3-4a20-8fc2-235b81622cd5-3e0zb3.png",
         ],
         basePrice: 1200,
         categoryId: headphonesCategory.id,
@@ -247,10 +247,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://utfs.io/f/1fcc3235-64d0-4450-83bf-828e03068be0-xrnpxh.png",
-          "https://utfs.io/f/1fcc3235-64d0-4450-83bf-828e03068be0-xrnpxh.png",
-          "https://utfs.io/f/1fcc3235-64d0-4450-83bf-828e03068be0-xrnpxh.png",
-          "https://utfs.io/f/1fcc3235-64d0-4450-83bf-828e03068be0-xrnpxh.png",
+          "https://utfs.io/f/7590d5f0-7b7e-4cec-bad3-7d44065e85ad-3us24m.png",
+          "https://utfs.io/f/ce8c1f19-6de7-4907-ac34-10a6712dc477-4l6gkb.png",
+          "https://utfs.io/f/a4e192a3-f912-43a9-ba74-015e6e6e80b3-d14z98.png",
+          "https://utfs.io/f/2441f500-b11e-4f19-bfc3-c34ad5c89cd8-lh3hy5.png",
         ],
         basePrice: 1500,
         categoryId: headphonesCategory.id,
@@ -262,10 +262,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://utfs.io/f/1fcc3235-64d0-4450-83bf-828e03068be0-xrnpxh.png",
-          "https://utfs.io/f/1fcc3235-64d0-4450-83bf-828e03068be0-xrnpxh.png",
-          "https://utfs.io/f/1fcc3235-64d0-4450-83bf-828e03068be0-xrnpxh.png",
-          "https://utfs.io/f/1fcc3235-64d0-4450-83bf-828e03068be0-xrnpxh.png",
+          "https://utfs.io/f/876940b0-026a-44c3-9dd0-b58faa4d5400-l6h1vy.png",
+          "https://utfs.io/f/1780083e-2b0d-4294-a44b-0e1747a0f6dc-cth6ct.png",
+          "https://utfs.io/f/8afe4b0a-58da-4367-8668-97d25542a0d9-4ghato.png",
+          "https://utfs.io/f/9a22e19e-2eb1-4b44-ae24-31e3d078feee-3wikph.png",
         ],
         basePrice: 550,
         categoryId: headphonesCategory.id,
@@ -277,10 +277,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://utfs.io/f/1fcc3235-64d0-4450-83bf-828e03068be0-xrnpxh.png",
-          "https://utfs.io/f/1fcc3235-64d0-4450-83bf-828e03068be0-xrnpxh.png",
-          "https://utfs.io/f/1fcc3235-64d0-4450-83bf-828e03068be0-xrnpxh.png",
-          "https://utfs.io/f/1fcc3235-64d0-4450-83bf-828e03068be0-xrnpxh.png",
+          "https://utfs.io/f/bbfc7084-b394-4f85-a6d6-f70f8521a5df-oxvmyz.png",
+          "https://utfs.io/f/40c8d604-bd9c-4ffe-b506-4cf37216aeed-ghx4a2.png",
+          "https://utfs.io/f/47e85b66-2dc2-4fce-a010-ecc38ab6c6e7-81yll5.png",
+          "https://utfs.io/f/de461592-bc91-464a-b68f-f529a0ccfe9c-dzx3s.png",
         ],
         basePrice: 250,
         categoryId: headphonesCategory.id,
@@ -292,10 +292,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://utfs.io/f/1fcc3235-64d0-4450-83bf-828e03068be0-xrnpxh.png",
-          "https://utfs.io/f/1fcc3235-64d0-4450-83bf-828e03068be0-xrnpxh.png",
-          "https://utfs.io/f/1fcc3235-64d0-4450-83bf-828e03068be0-xrnpxh.png",
-          "https://utfs.io/f/1fcc3235-64d0-4450-83bf-828e03068be0-xrnpxh.png",
+          "https://utfs.io/f/f430c118-1e72-4584-a5cd-98d1fc3fc6cd-pbckc3.png",
+          "https://utfs.io/f/5c073867-2247-4090-acb2-7cfc4b18e60d-xocfv8.png",
+          "https://utfs.io/f/c55221f5-8782-4ce5-9eee-8e24c8166343-szrqkr.png",
+          "https://utfs.io/f/93b22b12-92cf-4b05-adc6-6c280f0201df-kmrv1m.png",
         ],
         basePrice: 200,
         categoryId: headphonesCategory.id,
