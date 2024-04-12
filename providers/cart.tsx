@@ -37,6 +37,7 @@ export const CartContext = createContext<ICartContext>({
 
 const CartProvider = ({ children }: { children: ReactNode }) => {
   const [products, setProducts] = useState<CartProduct[]>([]);
+  const LOCAL_STORAGE_KEY = "@fsw-store/cart-products";
 
   useEffect(() => {
     setProducts(
@@ -45,7 +46,14 @@ const CartProvider = ({ children }: { children: ReactNode }) => {
   }, []);
 
   useEffect(() => {
-    localStorage.setItem("@fsw-store/cart-products", JSON.stringify(products));
+    // localStorage.setItem("@fsw-store/cart-products", JSON.stringify(products));
+    if (typeof window !== "undefined") {
+      if (products.length === 0) {
+        localStorage.removeItem(LOCAL_STORAGE_KEY);
+      } else {
+        localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(products));
+      }
+    }
   }, [products]);
 
   const subTotal = useMemo(() => {
