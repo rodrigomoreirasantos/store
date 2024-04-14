@@ -16,7 +16,7 @@ const ProductItem = ({ product, className }: ProductItemProp) => {
       href={`/product/${product.slug}`}
       className={cn("flex min-w-[170px] flex-col gap-4", className)}
     >
-      <div className="relative flex aspect-square w-full items-center justify-center rounded-lg bg-accent lg:min-w-[170px]">
+      <div className="relative flex aspect-square w-full items-center justify-center rounded-lg bg-accent">
         <Image
           src={product.imageUrls[0]}
           height={0}

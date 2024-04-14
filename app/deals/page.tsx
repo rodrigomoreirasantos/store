@@ -14,7 +14,7 @@ const DealsPage = async () => {
   });
 
   return (
-    <div className="flex flex-col gap-8 p-5">
+    <div className="flex flex-col gap-8 p-5 lg:container lg:mx-auto">
       <Badge variant="heading">
         <PercentIcon size={16} />
         Deals
