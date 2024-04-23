@@ -27,9 +27,9 @@ const CategoriesTable = ({ categories }: CategoriesTableProps) => {
     <Table>
       <TableHeader>
         <TableRow>
-          <TableHead>Nome</TableHead>
-          <TableHead>Categoria</TableHead>
-          <TableHead>Porcentagem das vendas</TableHead>
+          <TableHead>Name</TableHead>
+          <TableHead>Category</TableHead>
+          <TableHead>Percent of sold</TableHead>
         </TableRow>
       </TableHeader>
       <TableBody>
