@@ -38,7 +38,7 @@ const OrderProductItem = ({ orderProduct }: OrderProductItemProps) => {
         <div className="flex w-full items-center justify-between gap-1 ">
           <div className="bottom-0 flex items-center justify-center gap-1 text-right lg:absolute lg:right-0 lg:top-0 lg:my-auto lg:flex-col lg:items-end">
             <p className="text-sm font-bold lg:text-xl">
-              $ {Number(productTotalPrice.totalPrice).toFixed(2)}
+              $ {productTotalPrice.toFixed(2)}
             </p>
 
             {orderProduct.discountPercentage > 0 && (

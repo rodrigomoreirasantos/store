@@ -36,7 +36,7 @@ const OrderItem = ({ order }: OrderItemProps) => {
     return order.orderProducts.reduce((acc, product) => {
       const productTotalPrice = computeProductTotalPrice(product.product);
 
-      return acc + Number(productTotalPrice.totalPrice) * product.quantity;
+      return acc + productTotalPrice * product.quantity;
     }, 0);
   }, [order.orderProducts]);
 
