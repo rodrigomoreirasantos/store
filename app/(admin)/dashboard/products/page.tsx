@@ -28,17 +28,15 @@ const ProductsPage = async () => {
     <div className="flex w-full flex-col gap-10 p-10">
       <Badge variant="heading">
         <PackageIcon size={18} />
-        Produtos
+        Products
       </Badge>
 
       <div className="flex w-full items-center justify-between">
-        <p className="text-lg font-bold">
-          Produtos encontrados: {products.length}
-        </p>
+        <p className="text-lg font-bold">Products found: {products.length}</p>
 
         <Button className="flex gap-2">
           <PlusIcon size={18} />
-          Adicionar produto
+          Add product
         </Button>
       </div>
 
