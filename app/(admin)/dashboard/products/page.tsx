@@ -3,14 +3,26 @@ import { Button } from "@/components/ui/button";
 import { computeProductTotalPrice } from "@/helpers/product";
 import { prismaClient } from "@/lib/prisma";
 import { PackageIcon, PlusIcon } from "lucide-react";
-import ProductsTable from "./components/product-table";
+import ProductsTable, {
+  ProductWithTotalPriceAndCategory,
+} from "./components/product-table";
 
 const ProductsPage = async () => {
-  const products = await prismaClient.product.findMany();
+  const products = await prismaClient.product.findMany({
+    include: {
+      category: {
+        select: {
+          name: true,
+        },
+      },
+    },
+  });
 
-  const productsWithTotalPrice = products.map((product) =>
-    computeProductTotalPrice(product),
-  );
+  const productsWithTotalPrice: ProductWithTotalPriceAndCategory[] =
+    products.map((product) => ({
+      ...computeProductTotalPrice(product),
+      category: product.category,
+    }));
 
   return (
     <div className="flex w-full flex-col gap-10 p-10">
