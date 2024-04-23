@@ -91,14 +91,6 @@ export default async function Home() {
               className="px-5 lg:hidden"
             />
           </Link>
-
-          <Link href="/catalog">
-            <PromoBanner
-              src="/free-shipping-banner.png"
-              alt="Up to 55% off on mouses!"
-              className="hidden px-5 lg:block"
-            />
-          </Link>
         </div>
 
         <div className="flex flex-col gap-3 lg:gap-5">
