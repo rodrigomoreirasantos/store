@@ -524,7 +524,7 @@ async function main() {
         name: "Speakers",
         slug: "speakers",
         imageUrl:
-          "https://utfs.io/f/6b9b47cb-bb8e-4512-a79c-6e1be5a3d0e4-ccd7uf.png",
+          "https://utfs.io/f/24f0f20d-5a2e-4bfa-a39c-99e73869378f-ccd7uf.png",
       },
     });
 
@@ -535,10 +535,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://utfs.io/f/6b9b47cb-bb8e-4512-a79c-6e1be5a3d0e4-ccd7uf.png",
-          "https://utfs.io/f/6b9b47cb-bb8e-4512-a79c-6e1be5a3d0e4-ccd7uf.png",
-          "https://utfs.io/f/6b9b47cb-bb8e-4512-a79c-6e1be5a3d0e4-ccd7uf.png",
-          "https://utfs.io/f/6b9b47cb-bb8e-4512-a79c-6e1be5a3d0e4-ccd7uf.png",
+          "https://utfs.io/f/24f0f20d-5a2e-4bfa-a39c-99e73869378f-ccd7uf.png",
+          "https://utfs.io/f/e61b1b21-73f4-44a0-9480-0a6220c0eb36-4e4pk7.png",
+          "https://utfs.io/f/c3d92ee3-89c7-473f-8b09-ac0228e977d0-2d9t8a.png",
+          "https://utfs.io/f/e7c86eaa-bb0c-4c4a-ae26-175d1a08697e-94oc0r.png",
         ],
         basePrice: 1200,
         categoryId: speakersCategory.id,
