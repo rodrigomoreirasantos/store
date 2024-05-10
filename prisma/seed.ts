@@ -550,10 +550,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://utfs.io/f/6b9b47cb-bb8e-4512-a79c-6e1be5a3d0e4-ccd7uf.png",
-          "https://utfs.io/f/6b9b47cb-bb8e-4512-a79c-6e1be5a3d0e4-ccd7uf.png",
-          "https://utfs.io/f/6b9b47cb-bb8e-4512-a79c-6e1be5a3d0e4-ccd7uf.png",
-          "https://utfs.io/f/6b9b47cb-bb8e-4512-a79c-6e1be5a3d0e4-ccd7uf.png",
+          "https://utfs.io/f/7cd88821-757c-4333-a2a8-f186ee1075fb-cukwpp.png",
+          "https://utfs.io/f/52e9619a-ba50-4ed0-a37a-499e6d33ef02-gv9ztu.png",
+          "https://utfs.io/f/5cbfa10d-ed26-4ba0-9374-3f0ab428110c-ofz5lr.png",
+          "https://utfs.io/f/d6b1472a-f941-4258-9ac7-121bc778c284-59vqxs.png",
         ],
         basePrice: 4500,
         categoryId: speakersCategory.id,
