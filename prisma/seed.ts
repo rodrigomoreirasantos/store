@@ -444,10 +444,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://utfs.io/f/9ce6feee-1b15-4377-9772-64696157ba92-n2ha4u.png",
-          "https://utfs.io/f/9ce6feee-1b15-4377-9772-64696157ba92-n2ha4u.png",
-          "https://utfs.io/f/9ce6feee-1b15-4377-9772-64696157ba92-n2ha4u.png",
-          "https://utfs.io/f/9ce6feee-1b15-4377-9772-64696157ba92-n2ha4u.png",
+          "https://utfs.io/f/70b18460-df2d-4550-a844-d63d9fff4b3d-rax9q4.png",
+          "https://utfs.io/f/14350ee4-042e-4fe3-b4bc-1e25488660a5-w5lwxn.png",
+          "https://utfs.io/f/3d27f338-efbf-4116-82d0-8a4937590049-y0thty.png",
+          "https://utfs.io/f/59bbcf3a-bab1-4a9f-b081-364b69644728-t64umf.png",
         ],
         basePrice: 2000,
         categoryId: monitorsCategory.id,
