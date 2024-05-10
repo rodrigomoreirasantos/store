@@ -418,7 +418,7 @@ async function main() {
         name: "Monitors",
         slug: "monitors",
         imageUrl:
-          "https://utfs.io/f/9ce6feee-1b15-4377-9772-64696157ba92-n2ha4u.png",
+          "https://utfs.io/f/e54d2518-04ad-4294-827b-22ef50ccf10b-n2ha4u.png",
       },
     });
 
@@ -429,10 +429,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://utfs.io/f/9ce6feee-1b15-4377-9772-64696157ba92-n2ha4u.png",
-          "https://utfs.io/f/9ce6feee-1b15-4377-9772-64696157ba92-n2ha4u.png",
-          "https://utfs.io/f/9ce6feee-1b15-4377-9772-64696157ba92-n2ha4u.png",
-          "https://utfs.io/f/9ce6feee-1b15-4377-9772-64696157ba92-n2ha4u.png",
+          "https://utfs.io/f/e54d2518-04ad-4294-827b-22ef50ccf10b-n2ha4u.png",
+          "https://utfs.io/f/88000402-eefc-4250-98b8-28418840621b-te7tat.png",
+          "https://utfs.io/f/ca0f4081-dcd8-4c43-85b6-0d5e6369ea78-xjkr33.png",
+          "https://utfs.io/f/ddd08296-4ae2-4c24-8b8f-5995c6fed799-owwhm1.png",
         ],
         basePrice: 1500,
         categoryId: monitorsCategory.id,
